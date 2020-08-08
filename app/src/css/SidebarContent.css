@@ -1,0 +1,31 @@
+.SidebarContent {
+  height : 100%;
+}
+
+.SidebarContent .wrapper-logo{
+  text-align: center;
+}
+
+.btn-group-vertical * {
+  font-size: 200%;
+}
+
+.SidebarContent h2 {
+  font-size: 150%;
+}
+
+.wrapper-logo img {
+  width : 50%;
+}
+
+.wrapper-copyright {
+  position : fixed;
+}
+
+.copyright a {
+  color : lightgray;
+}
+
+.copyright a:hover {
+  color : white;
+}

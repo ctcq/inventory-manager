@@ -1,0 +1,31 @@
+.App {
+  height: 100vh;
+}
+
+.Login {
+  border : solid black;
+}
+
+.btn-hamburger {
+  position : relative;
+  top : 50%;
+}
+
+.btn-hamburger > div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+}
+
+/* Disable input spinners */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
